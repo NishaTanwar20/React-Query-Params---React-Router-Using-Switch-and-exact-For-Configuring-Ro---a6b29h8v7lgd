@@ -13,6 +13,7 @@ const App = () => {
   designation=searchValue.get("designation");
   return (
     <div className='details'>
+    <button onClick={()=>setSearchValue({id:1, name:'Robin', designation:'scientist'})}>Employ details</button>
       Employee {id} named {name} works as {designation}
     </div>
   )
